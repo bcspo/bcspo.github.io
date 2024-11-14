@@ -1,6 +1,6 @@
 body {
-    color: #333;
-    background: url(../images/pt01.png);
+    color: #fff;
+    background: #131313;
 }
 
 .blind {
@@ -13,6 +13,6 @@ body {
 }
 
 .inner {
-    max-width: 1410px;
+    max-width: 1600px;
     margin: 0 auto;
 }
