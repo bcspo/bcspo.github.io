@@ -1,9 +1,14 @@
 #header h1 {
     position: fixed;
-    top: 40px;
+    top: 60px;
     left: 60px;
     z-index: 999;
     font-weight: 200;
+
+    font-size: 12px;
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
 }
 
 #header .gnb {
@@ -45,7 +50,7 @@
 
 #header .menu {
     position: fixed;
-    top: 40px;
+    top: 50px;
     right: 60px;
     z-index: 999;
 
@@ -67,7 +72,7 @@
     left: 4px;
     right: 4px;
 
-    height: 1px;
+    height: 0.5px;
     background: #fff;
 }
 
@@ -157,10 +162,14 @@ body::before {
     background: rgba(0, 0, 0, 0.7);
 }
 
+.intro {
+    overflow: hidden;
+}
+
 .intro .stars {
     position: absolute;
     transform: translate(-50%, -50%);
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 .intro .s01 {
@@ -506,13 +515,16 @@ body::before {
 
 #footer {
     position: absolute;
-    bottom: 40px;
+    bottom: 50px;
     left: 109px;
     transform: translate(-50%, -50%);
 }
 
 .copy {
-    font-weight: 100;
+    font-weight: 200;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 @media (max-width: 768px) {
