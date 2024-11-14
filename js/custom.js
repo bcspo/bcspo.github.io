@@ -4,25 +4,25 @@ $(function () {
     const tl = gsap.timeline();
 
     tl
-        .from('.intro .tit .top', {
-            x: -200,
-            opacity: 0,
-            duration: 1.2,
-        })
-        .from('.intro .tit .middle', {
-            x: -200,
-            opacity: 0,
-            duration: 1.2,
-        })
-        .from('.intro .tit .bottom', {
-            x: -200,
-            opacity: 0,
-            duration: 1.2,
-        })
-        .from('.intro .stars', {
-            opacity: 0,
-            duration: 1.2,
-        })
+    // .from('.intro .tit .top', {
+    //     x: -200,
+    //     opacity: 0,
+    //     duration: 1.2,
+    // })
+    // .from('.intro .tit .middle', {
+    //     x: -200,
+    //     opacity: 0,
+    //     duration: 1.2,
+    // })
+    // .from('.intro .tit .bottom', {
+    //     x: -200,
+    //     opacity: 0,
+    //     duration: 1.2,
+    // })
+    // .from('.intro .stars', {
+    //     opacity: 0,
+    //     duration: 1.2,
+    // })
 
 
     $('#content').fullpage({

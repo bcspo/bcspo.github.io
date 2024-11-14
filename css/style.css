@@ -141,7 +141,7 @@
 }
 
 #header .cover li:hover {
-    color: #FFFF00;
+    color: #d8d861;
     transition: 0.3s;
 }
 
@@ -260,14 +260,23 @@ body::before {
     color: #fff;
     text-transform: uppercase;
     font-size: 32px;
-    font-weight: 800;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'KBO-Dia-Gothic_bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
 }
 
 .intro .inner .tit .middle {
+    font-family: 'KBO-Dia-Gothic_bold';
     font-size: 72px;
     font-weight: 800;
     white-space: nowrap;
     margin-top: 20px;
+    color: #d8d861;
 }
 
 .intro .inner .middle span {
@@ -278,8 +287,14 @@ body::before {
 
 .intro .inner .bottom {
     font-size: 16px;
+    font-weight: 300;
     line-height: 1.5;
     margin-top: 40px;
+}
+
+.intro .inner .bottom span {
+    color: #e0e088;
+    font-weight: 300;
 }
 
 .intro .inner .tit span {
@@ -502,7 +517,7 @@ body::before {
 .profile .desc {
     width: 240px;
     height: 80px;
-    color: #FFFF00;
+    color: #d8d861;
 }
 
 .profile .itm {
@@ -795,7 +810,6 @@ body::before {
 
     .intro .inner .middle span {
         opacity: 0.3;
-        color: #fff;
         font-weight: 800;
     }
 
@@ -1003,7 +1017,6 @@ body::before {
     }
 
     .profile .txt_box .right li:hover {
-        color: #FFFF00;
         transition: 0.5s;
     }
 
