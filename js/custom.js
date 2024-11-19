@@ -14,10 +14,18 @@ $(function () {
             opacity: 0,
             duration: 1.2,
         })
+        .from('.intro .a ', {
+            width: 0,
+            opacity: 0,
+        })
+        .from('.intro .b ', {
+            width: 0,
+            opacity: 0,
+        })
         .from('.intro .tit .bottom', {
             x: -200,
             opacity: 0,
-            duration: 1.2,
+            duration: 1,
         })
         .from('.intro .stars', {
             opacity: 0,

@@ -307,6 +307,28 @@ body::before {
     display: inline-block;
 }
 
+.intro .a {
+    position: absolute;
+    top: 520px;
+    left: 310px;
+    width: 870px;
+    height: 1px;
+    background: #d8d861;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.intro .b {
+    position: absolute;
+    top: 350px;
+    right: 1410px;
+    width: 200px;
+    height: 1px;
+    background: tomato;
+    opacity: 0.4;
+    z-index: -1;
+}
+
 .pf .inner {
     display: flex;
     align-items: center;
@@ -317,7 +339,7 @@ body::before {
     flex: 1;
 }
 
-.pf .inner .fo {
+.pf .inner .desc_area {
     order: -1;
 }
 
@@ -463,36 +485,6 @@ body::before {
     font-size: 18px;
 }
 
-.profile .inner {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 40px;
-    border: 1px solid #fff;
-}
-
-.profile .txt_box {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-}
-
-.profile .txt_box ul li {
-    line-height: 2.4;
-}
-
-.profile .txt_box .left {
-    font-weight: 700;
-}
-
-.profile .txt_box .right li {
-    cursor: pointer;
-}
-
-.profile .txt_box .right li:hover {
-    color: #FFFF00;
-    transition: 0.5s;
-}
-
 .profile .txt {
     max-width: 500px;
     margin: 0 auto;
@@ -512,6 +504,12 @@ body::before {
     font-size: 48px;
     font-weight: 100;
     line-height: 80px;
+}
+
+.add {
+    text-align: center;
+    margin-top: 16px;
+    opacity: 0.3;
 }
 
 .profile .desc {
@@ -829,6 +827,10 @@ body::before {
         display: inline-block;
     }
 
+    .border {
+        display: none;
+    }
+
     .pf .inner {
         display: flex;
         flex-direction: column;
@@ -841,8 +843,8 @@ body::before {
         flex: 1;
     }
 
-    .pf .inner .fo {
-        order: -1;
+    .pf .inner .desc_area {
+        order: 2;
     }
 
     .pf .btn {
@@ -991,39 +993,16 @@ body::before {
         font-size: 16px;
     }
 
-    .profile .inner {
-        max-width: 500px;
-        margin: 0 20px;
-        padding: 40px;
-        border: 1px solid #fff;
-    }
-
-    .profile .txt_box {
-        display: flex;
-        gap: 30px;
-        justify-content: center;
-    }
-
-    .profile .txt_box ul li {
-        line-height: 2.4;
-    }
-
-    .profile .txt_box .left {
-        font-weight: 700;
-    }
-
-    .profile .txt_box .right li {
-        cursor: pointer;
-    }
-
-    .profile .txt_box .right li:hover {
-        transition: 0.5s;
+    .add {
+        text-align: center;
+        margin-top: 16px;
+        opacity: 0.3;
     }
 
     .profile .txt {
-        max-width: 400px;
+        max-width: 500px;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         display: flex;
     }
 
@@ -1032,6 +1011,7 @@ body::before {
         font-size: 24px;
         font-weight: 100;
         line-height: 80px;
+        margin-left: 80px
     }
 
     .profile .txt .right {
@@ -1039,11 +1019,19 @@ body::before {
         font-size: 24px;
         font-weight: 100;
         line-height: 80px;
+        margin-right: 80px;
+    }
+
+    .xz {
+        text-align: center;
+        font-weight: 200;
+        margin-bottom: 16px;
     }
 
     .profile .desc {
-        width: 240px;
+        width: 120px;
         height: 80px;
+        color: #d8d861;
     }
 
     .profile .itm {
