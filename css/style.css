@@ -347,7 +347,7 @@ body::before {
     display: inline-block;
     background: #222;
     color: #fff;
-    padding: 8px 24px;
+    padding: 12px 36px;
     border-radius: 8px;
     box-shadow: -2px -2px 4px rgb(255, 255, 255, 0.5),
         5px 5px 2px rgb(0, 0, 0);
@@ -399,7 +399,7 @@ body::before {
 
 .pf .desc_area .tit {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
 .pf .desc_area .tit h2 {
@@ -411,10 +411,12 @@ body::before {
     margin-top: 16px;
     width: 450px;
     line-height: 1.4;
+    font-size: 14px;
+    word-break: keep-all;
 }
 
 .pf .desc_area .desc {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .pf .desc_area .desc table th {
@@ -506,6 +508,7 @@ body::before {
 
 .add {
     text-align: center;
+    font-size: 14px;
     margin-top: 16px;
     opacity: 0.3;
 }
